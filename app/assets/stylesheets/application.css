@@ -11,7 +11,8 @@
  *= require_self
  *= require_tree .
  */
-body {
+body 
+{
 	padding-top: 70px;
 }
 .status{
