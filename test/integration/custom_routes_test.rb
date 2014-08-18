@@ -15,8 +15,13 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
   	assert_redirected_to '/'
   end
 
-    test "that the /register route opens the log out page" do
+  test "that the /register route opens the log out page" do
   	get '/register'
   	assert_response :success
+   end
+
+   test "that a profile page works" do
+    get '/Paul'
+    assert_response :success
    end
 end
