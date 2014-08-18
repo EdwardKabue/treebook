@@ -31,6 +31,7 @@ class StatusesControllerTest < ActionController::TestCase
 
   test "should create status when logged in" do
     sign_in users(:james)
+    
     assert_difference('Status.count') do
       post :create, status: { content: @status.content }
     end
