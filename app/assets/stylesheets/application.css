@@ -31,3 +31,6 @@ body
 .status.hover .admin{
 	display: inline;
 }
+.bgcolour{
+	background-color: rgb(200,240,255);
+}
