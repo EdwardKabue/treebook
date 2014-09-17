@@ -9,3 +9,9 @@ david:
   last_name: "Beckham"
   email: "david@manutd.com"
   profile_name: "becks"
+
+radamel:
+  first_name: "Radamel"
+  last_name: "Falcao"
+  email: "falcao@manutd.com"
+  profile_name: "ElTigre"
